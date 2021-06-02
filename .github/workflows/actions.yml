@@ -3,10 +3,10 @@ name: Github Actions Debug
 on:
   pull-request:
     branches: 
-      - develop
+      - [develop]
   push:
     branches: 
-      - develop
+      - [develop]
 
 jobs:
   build:
